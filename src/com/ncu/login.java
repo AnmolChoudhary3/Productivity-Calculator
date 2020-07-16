@@ -22,7 +22,8 @@ public class login
 		try
 		{
 			
-      File ob = new File("C:\\Users\\Ansh\\Desktop\\project\\text_files\\login_file.txt");
+      File ob = new File("..\\text_files\\login_file.txt");
+	  
     	FileReader fin = new FileReader(ob);
 	    BufferedReader bin= new BufferedReader(fin);
 
